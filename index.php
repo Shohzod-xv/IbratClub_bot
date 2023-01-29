@@ -2,7 +2,7 @@
 include "vendor/db.php";
 include "vendor/Button.php";
 include "vendor/Text.php";
-define('API_KEY', '5861240385:AAFg1ChR0TKtxUaExF8scGg-XqQ1jWW6STM');
+define('API_KEY', 'API_TOKEN');
 function bot($method, $datas = [])
 {
     $url = "https://api.telegram.org/bot" . API_KEY . "/" . $method;
